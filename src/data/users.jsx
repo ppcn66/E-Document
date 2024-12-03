@@ -1,4 +1,4 @@
-const users = [{ user: "User", pass: "123", role: "admin", token: "user" }];
+const users = [{ user: "me", pass: "132", role: "admin", token: "user" }];
 
 export function verifyUser(user, pass) {
   const userFound = users.find((u) => {

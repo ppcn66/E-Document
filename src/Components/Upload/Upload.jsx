@@ -149,7 +149,7 @@ const Popup = () => {
   };
 
   return (
-    <div>
+    <div className="lo">
       <button onClick={() => setIsModalOpen(true)} className="item btn-new">
         เพิ่ม +
       </button>
@@ -162,13 +162,13 @@ const Popup = () => {
             <span>&times;</span>
           </button>
         </div>
-        <div className="modal-body">
+        <div className="modal-body ">
           <input
             type="file"
             onChange={handleFileChange}
-            className="form-control"
+            className="form-control "
           />
-          <div className="mt-3">
+          <div className="mt-3 " >
             {fileName && <p><strong>ชื่อไฟล์:</strong> {fileName}</p>}
           </div>
           {uploading && <p>กำลังอัปโหลด...</p>}
@@ -176,11 +176,11 @@ const Popup = () => {
           {uploadSuccess === false && <p className="text-danger">เกิดข้อผิดพลาดในการอัปโหลดไฟล์</p>}
         </div>
         <div className="modal-footer">
-          <button className="btn btn-secondary" onClick={() => setIsModalOpen(false)}>
+          <button className="btn b" onClick={() => setIsModalOpen(false)}>
             ปิด
           </button>
           <button
-            className="btn btn-primary"
+            className="btn-up"
             onClick={handleUpload}
             disabled={uploading}
           >
