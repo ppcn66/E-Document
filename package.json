@@ -14,7 +14,7 @@
   },
   "name": "login",
   "version": "1.0.0",
-  "homepage": "https://ppcn66.github.io/E-Document",
+  "homepage": "https://ppcn66.github.io/login",
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "main": "eslint.config.js",
   "scripts": {
